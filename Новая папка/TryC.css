@@ -1,0 +1,372 @@
+.Menu_Background{
+	position: relative;
+	margin-top: -10px;
+	margin-left: -10px;
+	height: 85px;
+	width: 100%;
+	background-color: #998181;
+	position: fixed;
+	opacity: 0.3;
+	-webkit-box-shadow: -1px 21px 23px -7px rgba(204,190,204,1);
+    -moz-box-shadow: -1px 21px 23px -7px rgba(204,190,204,1);
+    box-shadow: -1px 21px 23px -7px rgba(204,190,204,1);
+}
+.Menu{
+	position: fixed;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-left: 300px;
+	font-size: 42px;
+}
+li{	
+  float: left;
+  margin-right: 200px;
+  margin-top: 24px;
+}
+a{
+	font-size: 22px;
+	font-weight: 800;
+	position: fixed;
+	float: left;
+	text-decoration: none;
+	color:#19ff0d;
+	font-size: 12px;
+	transition: all .4s ease-in-out;
+	}
+a:hover{
+	padding: 5px;
+	font-size: 26px;
+	border: 4px solid white;
+	border-radius: 15px;
+	transition: all .4s ease-in-out;
+	color:#7CFC00;
+	border-color: #fc0000;
+}
+.City {
+	position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	width: 100%;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+	margin-left: -2px;
+	margin-top: -10px;
+	background-image: url(https://desktopwalls.net/wp-content/uploads/2014/07/Tilt%20Shift%20New%20York%20City%20Night%20Lights%20Desktop%20Wallpaper.jpg);
+}
+  @font-face {
+    font-family: Pastle; /* Гарнитура шрифта */
+    src: url(Pastle.ttf); /* Путь к файлу со шрифтом */
+   }
+.Name {
+	margin-left: 900px;
+	position: absolute;
+	margin-top: 250px;
+	width: 500px;
+	height: 70px;
+	color: white;
+	font-family:Pastle, 'EFN Pastele';
+	transform: rotate(-7deg);
+	font-size: 40px;
+	letter-spacing: 5px;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    color: rgba(255,255,255,1);
+    text-decoration: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.Name:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+.Profil{
+	margin-left: 800px;
+	position: absolute;
+	margin-top: 400px;
+	width: 400px;
+	font-family:Pastle, 'EFN Pastele';
+    font-size: 30px;
+    transform: rotate(-7deg);
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    color: rgba(255,255,255,1);
+    text-decoration: normal;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    white-space: pre;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.Profil:hover {
+  text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff ;
+}
+/*.Vid{
+	margin-left: 900px;
+	position: absolute;
+	margin-top: 540px;
+	width: 100px;
+	height: 100px;
+	background-image: url(html.png);
+	background-size: cover;
+}
+*/
+.Mudr{
+    margin-left: 700px;
+	position: absolute;
+	margin-top: 610px;
+	width: 790px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    text-indent: 100px; /*Шутка*/
+}
+
+.Text{
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 754px;
+	width: 700px;
+	height: 400px;
+	background-color: #5c5a99;
+	border-radius: 15px;
+	opacity: 0.9;
+	-webkit-box-shadow: 0px 9px 46px 18px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 9px 46px 18px rgba(0,0,0,0.48);
+    box-shadow: 0px 9px 46px 18px rgba(0,0,0,0.48); /*Обо мне*/
+}
+.T{
+	    color: white;
+	    font-size: 40px;
+	    margin-top: 40px;
+		text-align: center;
+	    font-family: 'Shadows Into Light', cursive;
+}
+.Te{
+	position: absolute;
+    color: white;
+    font-size: 30px;
+    text-indent: 20px;
+	text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+}
+.Grey{
+	position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-image: url(https://wallpapercave.com/wp/e92dhfp.jpg);
+	margin-top: 790px;
+	margin-left: -2px;
+	width: 100%;
+	height: 1050px;
+}
+.Anim{
+	position: absolute;
+	margin-top: 1300px;
+	width: 900px;
+	height: 400px;
+	margin-left: 300px;
+	background: rgba(113,196,218,0.98);
+    background: -moz-linear-gradient(-45deg, rgba(113,196,218,0.98) 0%, rgba(113,196,218,0.98) 18%, rgba(55,157,185,0.99) 68%, rgba(55,157,185,1) 98%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(113,196,218,0.98)), color-stop(18%, rgba(113,196,218,0.98)), color-stop(68%, rgba(55,157,185,0.99)), color-stop(98%, rgba(55,157,185,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(113,196,218,0.98) 0%, rgba(113,196,218,0.98) 18%, rgba(55,157,185,0.99) 68%, rgba(55,157,185,1) 98%);
+    background: -o-linear-gradient(-45deg, rgba(113,196,218,0.98) 0%, rgba(113,196,218,0.98) 18%, rgba(55,157,185,0.99) 68%, rgba(55,157,185,1) 98%);
+    background: -ms-linear-gradient(-45deg, rgba(113,196,218,0.98) 0%, rgba(113,196,218,0.98) 18%, rgba(55,157,185,0.99) 68%, rgba(55,157,185,1) 98%);
+    background: linear-gradient(135deg, rgba(113,196,218,0.98) 0%, rgba(113,196,218,0.98) 18%, rgba(55,157,185,0.99) 68%, rgba(55,157,185,1) 98%);
+    opacity: 0.9;
+    border-radius: 15px;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#71c4da', endColorstr='#379db9', GradientType=1 );
+}
+
+
+
+.Ch{
+	position: absolute;
+	margin-top: -20px;
+	margin-left: 400px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 20px;	 /*Окно с загрузкой*/
+}
+.Char1, .Char2, .Char3, .Char4{
+	position: absolute;
+	text-align: center;
+	color: yellow;
+	width: 100px;
+	height: 30px;
+	font-size: 30px;/**//*Текст*/
+}
+.Char1{
+	margin-top: 70px;
+	margin-left: 70px;
+}
+.Char2{
+	margin-top: 144px;
+	margin-left: 70px;
+}
+.Char3{
+	margin-top: 220px;
+	margin-left: 70px;
+}
+.Char4{
+	margin-top: 305px;
+	margin-left: 70px;
+}
+
+.Progres1, .Progres2, .Progres3, .Progres4{
+	position: absolute;
+    font-size: 25px;
+    font-family: 'Shadows Into Light', cursive;
+}
+.Progres1{
+  margin-top: 47px;
+  margin-left: 450px;
+  font-weight: bold;
+}
+.Progres2{
+  margin-top: 122px;
+  margin-left: 450px;
+  font-weight: bold;
+}
+.Progres3{
+  margin-top: 197px;
+  margin-left: 450px;
+  font-weight: bold;
+}
+.Progres4{
+  margin-top: 284px;
+  margin-left: 450px;
+  font-weight: bold;
+}
+
+.Chari1, .Chari2, .Chari3, .Chari4{ /*Картинки*/
+	background-size: cover;
+	position: absolute;
+	width: 70px;
+	height: 70px;
+}
+.Chari1{
+	margin-top:70px;
+    margin-left: 700px;
+    background-image: url(https://s.w.org/style/images/about/WordPress-logotype-wmark.png);
+}
+.Chari2{
+	margin-top:140px;
+    margin-left: 765px;
+    background-image: url(https://i.ibb.co/G5xLs1m/SS.png);
+}
+.Chari3{
+	margin-top: 220px;
+	margin-left: 800px;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png);
+}
+.Chari4{
+	margin-top:300px;
+	margin-left: 653px;
+	background-image: url(https://dmitro.pro/wp-content/uploads/2018/03/js-logo.png);
+}
+
+.Prog1, .Prog2, .Prog3, .Prog4{
+ position: absolute;
+ width: 10px;
+ height: 10px;
+ border-radius: 5px;
+ background: linear-gradient(to right, #F6EFD2, #CEAD78);/* Полоса загрузки*/
+}
+.Prog1{
+	 margin-top: 100px;
+     margin-left: 200px;
+}
+.Prog2{
+	 margin-top: 175px;
+     margin-left: 200px;
+}
+.Prog3{
+	 margin-top: 250px;
+     margin-left: 200px;
+}
+.Prog4{
+	 margin-top: 335px;
+     margin-left: 200px;
+}
+
+.Cont{
+  position: absolute;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  margin-left: -2px;
+  margin-top: 1790px;
+  background-image: url(https://i.ibb.co/FmRXxvj/1920-1080-20130927065357570397.jpg);
+}
+.Con{
+	position: absolute;
+	width: 800px;
+	height: 500px;
+	margin-left: 350px;
+	margin-top: 170px;
+	border-top-left-radius:200px; 
+	border-bottom-right-radius: 100px; 
+	background: rgba(236,85,146,1);
+	-webkit-box-shadow: -14px 26px 69px 4px rgba(250,47,115,0.57);
+    -moz-box-shadow: -14px 26px 69px 4px rgba(250,47,115,0.57);
+    box-shadow: -14px 26px 69px 4px rgba(250,47,115,0.57);
+    background: -moz-linear-gradient(45deg, rgba(236,85,146,1) 0%, rgba(234,123,169,0.94) 20%, rgba(228,58,131,0.88) 43%, rgba(231,50,129,0.83) 61%, rgba(232,48,128,0.83) 65%, rgba(221,70,140,0.83) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(236,85,146,1)), color-stop(20%, rgba(234,123,169,0.94)), color-stop(43%, rgba(228,58,131,0.88)), color-stop(61%, rgba(231,50,129,0.83)), color-stop(65%, rgba(232,48,128,0.83)), color-stop(100%, rgba(221,70,140,0.83)));
+    background: -webkit-linear-gradient(45deg, rgba(236,85,146,1) 0%, rgba(234,123,169,0.94) 20%, rgba(228,58,131,0.88) 43%, rgba(231,50,129,0.83) 61%, rgba(232,48,128,0.83) 65%, rgba(221,70,140,0.83) 100%);
+    background: -o-linear-gradient(45deg, rgba(236,85,146,1) 0%, rgba(234,123,169,0.94) 20%, rgba(228,58,131,0.88) 43%, rgba(231,50,129,0.83) 61%, rgba(232,48,128,0.83) 65%, rgba(221,70,140,0.83) 100%);
+    background: -ms-linear-gradient(45deg, rgba(236,85,146,1) 0%, rgba(234,123,169,0.94) 20%, rgba(228,58,131,0.88) 43%, rgba(231,50,129,0.83) 61%, rgba(232,48,128,0.83) 65%, rgba(221,70,140,0.83) 100%);
+    background: linear-gradient(45deg, rgba(236,85,146,1) 0%, rgba(234,123,169,0.94) 20%, rgba(228,58,131,0.88) 43%, rgba(231,50,129,0.83) 61%, rgba(232,48,128,0.83) 65%, rgba(221,70,140,0.83) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec5592', endColorstr='#dd468c', GradientType=1 );    
+}
+.ConT{
+	position: absolute;
+    width: 800px;
+	height: 600px;
+	margin-left: 350px;
+	margin-top: 170px;
+	border-top-left-radius:200px; 
+	border-bottom-right-radius: 100px;
+} 
+.ConT h1{
+  font-family: 'Rubik One', sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  background: #3cf081;
+  display: table;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  mix-blend-mode: multiply;
+  padding: 5px 10px;
+}
+.ConT p{
+  font-size: 27px;
+  margin-top: 50px;
+  margin-left: 40px;
+  color: #adf011;
+  font-family: 'lobster', cursive;
+ } 
+  
